@@ -43,7 +43,7 @@ function Navbar() {
             <Link href="/about">About Me</Link>
           </li>
           <li className="p-6 font-semibold">
-            <Link href="/portfolio">Projects</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li className="p-6 font-semibold">
             <Link href="/contact">Contact Me</Link>

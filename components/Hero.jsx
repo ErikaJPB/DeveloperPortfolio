@@ -39,7 +39,9 @@ function Hero({ heading, message }) {
             <AiOutlineTwitter className="text-6xl mx-8 cursor-pointer  ml-1 my-2" />
           </a>
         </div>
-        {router.pathname !== "/contact" ? (
+        {router.pathname !== "/contact" &&
+        router.pathname !== "/about" &&
+        router.pathname !== "/portfolio" ? (
           <Link href="/contact">
             <button className="px-8 py-4 border my-5">Contact Me</button>
           </Link>
