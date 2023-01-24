@@ -1,6 +1,9 @@
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Hero({ heading, message }) {
+  const router = useRouter();
   return (
     <div className="flex items-center justify-center h-screen mb-[10rem] bg-fixed bg-center bg-cover custom-img ">
       {/* Overlay */}
@@ -8,7 +11,11 @@ function Hero({ heading, message }) {
       <div className="p-5 text-white z-[2]  mt-[-10rem]">
         <h2 className="text-5xl font-bold">{heading}</h2>
         <p className="py-5 text-3xl">{message}</p>
-        <button className="px-8 py-2 border">Contact Me</button>
+        {router.pathname !== "/contact" ? (
+          <Link href="/contact">
+            <button className="px-8 py-2 border">Contact Me</button>
+          </Link>
+        ) : null}
       </div>
     </div>
   );

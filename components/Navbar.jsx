@@ -31,21 +31,21 @@ function Navbar() {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
-            EJPB
+          <h1 style={{ color: `${textColor}` }} className="font-bold text-3xl">
+            Developed By EJPB
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
+          <li className="p-6 font-semibold">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4">
+          <li className="p-6 font-semibold">
             <Link href="/about">About Me</Link>
           </li>
-          <li className="p-4">
+          <li className="p-6 font-semibold">
             <Link href="/portfolio">Projects</Link>
           </li>
-          <li className="p-4">
+          <li className="p-6 font-semibold">
             <Link href="/contact">Contact Me</Link>
           </li>
         </ul>
@@ -72,25 +72,25 @@ function Navbar() {
           <ul>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/">Home</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/about">About Me</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/portfolio">Projects</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/contact">Contact Me</Link>
             </li>
