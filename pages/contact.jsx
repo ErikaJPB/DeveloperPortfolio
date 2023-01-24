@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 
 function contact() {
   return (
-    <div>
+    <div className="mt-1 ml-2">
       <Hero
         heading="Contact"
         message="Submit the form below for more content."
