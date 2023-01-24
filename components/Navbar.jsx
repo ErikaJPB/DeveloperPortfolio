@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Links from "./Links";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -48,6 +49,9 @@ function Navbar() {
           <li className="p-6 font-semibold">
             <Link href="/contact">Contact Me</Link>
           </li>
+          <li>
+            <Links />
+          </li>
         </ul>
 
         {/* Mobile Button */}
@@ -93,6 +97,9 @@ function Navbar() {
               className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/contact">Contact Me</Link>
+            </li>
+            <li>
+              <Links />
             </li>
           </ul>
         </div>

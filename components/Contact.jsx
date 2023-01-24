@@ -106,6 +106,7 @@ function Contact() {
           value={formData.message}
           required
         ></textarea>
+
         <button
           className="border shadow-lg  shadow-gray-400 p-8 w-full mt-4 font-semibold"
           type="submit"

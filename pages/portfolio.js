@@ -4,8 +4,11 @@ import Portfolio from "../components/Portfolio";
 
 function portfolio() {
   return (
-    <div className="margin-auto justify-center">
-      <Hero heading="Projects" message="Scroll down" />
+    <div className="margin-auto justify-center text-center">
+      <Hero
+        heading="Portfolio"
+        message="Scroll down to see some of the projects I've been working on"
+      />
       <Portfolio />
     </div>
   );

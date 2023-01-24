@@ -4,7 +4,7 @@ import About from "../components/About";
 
 function about() {
   return (
-    <div className="margin-auto justify-center">
+    <div className="margin-auto justify-center text-center">
       <Hero
         heading="About Me"
         message="Scroll down to read a brief overwiew of my  background and experience "

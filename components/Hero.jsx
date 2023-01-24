@@ -1,11 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineTwitter,
-} from "react-icons/ai";
 
 function Hero({ heading, message }) {
   const router = useRouter();
@@ -16,29 +11,7 @@ function Hero({ heading, message }) {
       <div className="p-5 text-white z-[2]  mt[6rem]">
         <h2 className="text-5xl font-bold">{heading}</h2>
         <p className="py-5 text-3xl">{message}</p>
-        <div className="flex justify-center my-3">
-          <a
-            href="https://github.com/ErikaJPB"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineGithub className="text-6xl mx-8 cursor-pointer  ml-1 my-2" />
-          </a>
-          <a
-            href="https://linkedin.com/in/erika-pineda-92322b262/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineLinkedin className="text-6xl mx-8 cursor-pointer  ml-1 my-2" />
-          </a>
-          <a
-            href="https://twitter.com/TheGreyMind"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiOutlineTwitter className="text-6xl mx-8 cursor-pointer  ml-1 my-2" />
-          </a>
-        </div>
+
         {router.pathname !== "/contact" &&
         router.pathname !== "/about" &&
         router.pathname !== "/portfolio" ? (

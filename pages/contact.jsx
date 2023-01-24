@@ -4,13 +4,17 @@ import Contact from "../components/Contact";
 
 function contact() {
   return (
-    <div className="margin-auto justify-center">
+    <div className="margin-auto justify-center text-center">
       <Hero
         heading="Contact"
         message="Submit the form below
         for more content."
       />
-      <Contact />
+      <div className="relative">
+        <div className="">
+          <Contact />
+        </div>
+      </div>
     </div>
   );
 }
