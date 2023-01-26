@@ -3,7 +3,7 @@ import { projects } from "../pages/api/data";
 
 function Projects() {
   return (
-    <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <div className="container px-5 py-10 mx-auto my-8 text-center lg:px-40">
       <div className="flex flex-col w-full mb-20">
         <div className="grid grid-cols-auto gap-8 m-auto">
           {projects.map((project) => (
@@ -23,7 +23,7 @@ function Projects() {
               </h4>
               <div className="flex justify-between mt-4">
                 {project.GitHub.map((url) => (
-                  <a href={url} className="text-black-500 font-bold ">
+                  <a href={url} className="text-black-500 font-bold font-xl">
                     View on GitHub
                   </a>
                 ))}
