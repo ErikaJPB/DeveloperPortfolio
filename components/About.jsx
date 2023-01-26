@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-[1240px] m-auto p-6 h-screen">
+    <div className="max-w-[1240px] m-auto p-6">
       <div className="max-w-[600px] m-auto">
         <p className="text-4xl font-bold shadow-gray-400  p-6 text-center">
           My name is Erika and I am a software web developer with experience in

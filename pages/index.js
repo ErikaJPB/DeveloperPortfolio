@@ -15,12 +15,8 @@ export default function Home() {
           <link rel="icon" href="/codebracket.png" />
         </Head>
         <Hero heading="Erika Pineda" message="Full-Stack Web Developer" />
-
         <About />
-        <br />
-
         <Portfolio />
-
         <Contact />
       </div>
     </>

@@ -3,13 +3,15 @@ import { projects } from "../pages/api/data";
 
 function Projects() {
   return (
-    <div className="container px-5 py-10 mx-auto my-8 text-center lg:px-40">
+    <div className="container px-5 py-10 mx-auto my-15 text-center lg:px-40">
       <div className="flex flex-col w-full mb-20">
-        <div className="grid grid-cols-auto gap-8 m-auto">
+        <div className="grid grid-cols-auto gap-10  m-auto">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="p-6 rounded-lg w-full shadow-lg bg-center bg-cover object-center object-cover"
+              className="p-6 rounded-lg w-full shadow-lg 
+              border
+              shadow-grey-400 bg-center bg-cover object-center object-cover"
             >
               <h3 className="text-4xl font-bold shadow-gray-400 text-center p-6">
                 {project.title}
