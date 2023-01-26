@@ -12,7 +12,7 @@ function Links() {
         <AiOutlineGithub className="text-4xl mx-8 cursor-pointer  ml-1 my-2" />
       </a>
       <a
-        href="https://linkedin.com/in/erika-pineda-92322b262/"
+        href="https://linkedin.com/in/ErikaJPB/"
         target="_blank"
         rel="noreferrer"
       >
