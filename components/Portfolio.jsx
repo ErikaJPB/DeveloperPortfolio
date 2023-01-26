@@ -4,6 +4,9 @@ import { projects } from "../pages/api/data";
 function Projects() {
   return (
     <div className="relative">
+      <h1 className="text-4xl font-bold shadow-gray-400  text-center p-6">
+        Projects
+      </h1>
       <div className="grid grid-cols-auto gap-8 m-auto">
         {projects.map((project) => (
           <div className="p-6 rounded-lg w-full shadow-lg bg-center bg-cover object-center object-cover">
