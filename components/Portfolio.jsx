@@ -10,9 +10,11 @@ function Projects() {
       <div className="grid grid-cols-auto gap-8 m-auto">
         {projects.map((project) => (
           <div className="p-6 rounded-lg w-full shadow-lg bg-center bg-cover object-center object-cover">
-            <h1 className="text-4xl font-bold shadow-gray-400 text-center p-6">
+            <h3 className="text-4xl font-bold shadow-gray-400 text-center p-6">
               {project.title}
-            </h1>
+            </h3>
+            <img src={project.image} alt={project.title} className="w-full" />
+
             <p className="text-gray-600 text-center">{project.Description}</p>
             <div className="flex justify-between mt-4">
               {project.GitHub.map((url) => (
