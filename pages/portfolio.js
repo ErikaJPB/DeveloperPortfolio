@@ -7,9 +7,13 @@ function portfolio() {
     <div className="margin-auto justify-center text-center">
       <Hero
         heading="Portfolio"
-        message="Scroll down to see some of the projects I've been working on"
+        message="Explore some of the projects I've been working on by scrolling down below."
       />
+
       <Portfolio />
+      <br />
+
+      <br />
     </div>
   );
 }

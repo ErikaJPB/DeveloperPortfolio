@@ -7,8 +7,7 @@ function contact() {
     <div className="margin-auto justify-center text-center">
       <Hero
         heading="Contact"
-        message="Submit the form below
-        for more content."
+        message="Get in touch with me by submitting the form below for more information."
       />
       <div className="relative">
         <div className="">
