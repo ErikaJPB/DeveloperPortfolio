@@ -16,7 +16,8 @@ export default function Home() {
         </Head>
         <Hero heading="Erika Pineda" message="Full-Stack Web Developer" />
         <About />
-
+        <br />
+        <br />
         <Portfolio />
 
         <Contact />
