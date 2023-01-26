@@ -1,6 +1,4 @@
 import React from "react";
-import { TfiArrowCircleUp } from "react-icons/tfi";
-import Link from "next/link";
 
 function About() {
   return (
