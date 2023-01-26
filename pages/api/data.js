@@ -11,7 +11,7 @@ export const projects = [
     title: "ACMEtronics",
     Description:
       "This project was an e-commerce platform created as a group effort for the Henry Bootcamp. We created our own information to use as an API and worked with PostgreSQL as the database. The backend was developed with Node.js and Express, and the frontend was created with React, Redux, Bootstrap, and Material UI.",
-    image: "/assets/pokeworld.gif",
+    image: "/assets/acmetronics.gif",
     GitHub: [
       "https://github.com/kachamozo/ACMEtronics-back",
       "https://github.com/kachamozo/ACMEtronics-front",
