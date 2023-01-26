@@ -6,7 +6,7 @@ function Projects() {
     <div className="relative">
       <div className="grid grid-cols-auto gap-8 m-auto">
         {projects.map((project) => (
-          <div className="p-6 rounded-lg shadow-lg bg-center bg-cover object-center object-cover">
+          <div className="p-6 rounded-lg w-full shadow-lg bg-center bg-cover object-center object-cover">
             <h1 className="text-4xl font-bold shadow-gray-400 text-center p-6">
               {project.title}
             </h1>
