@@ -7,7 +7,7 @@ function About() {
         <h1 className="text-4xl font-bold shadow-gray-400  text-center p-6">
           Get to know a little about me!
         </h1>
-        <p className="text-4xl font-bold shadow-gray-400  p-6 text-center">
+        <p className="text-4xl font-bold shadow-gray-400  p-6 text-center border shadow-lg   ">
           My name is Erika, I'm from Colombia, I've been a tech enthusiast since
           my childhood and that's led me to pursue a career in software web
           development. I am a lifelong learner, I thrive when tackling new
