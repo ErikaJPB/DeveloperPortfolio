@@ -8,7 +8,14 @@ import {
 import { GrReactjs } from "react-icons/gr";
 import { FaNodeJs } from "react-icons/fa";
 import { DiPostgresql } from "react-icons/di";
-import { SiTailwindcss, SiRedux, SiExpress, SiSequelize } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiRedux,
+  SiExpress,
+  SiSequelize,
+  SiMaterialui,
+  SiBootstrap,
+} from "react-icons/si";
 
 function Skills() {
   const [selectedIcon, setSelectedIcon] = useState(null);
@@ -23,19 +30,6 @@ function Skills() {
         My Skills
       </h1>
       <div className="grid grid-cols-3 gap-8 sm:my-4">
-        <div className="relative mx-4 ">
-          <i
-            className="text-6xl text-brand-javascript "
-            onClick={() => handleIconClick("Javascript")}
-          >
-            <TbBrandJavascript />
-          </i>
-          {selectedIcon === "Javascript" && (
-            <p className="text-center absolute bottom-[-8] left-0 right-0">
-              Javascript
-            </p>
-          )}
-        </div>
         <div className="relative mx-4">
           <i
             className="text-6xl text-brand-html5 "
@@ -60,6 +54,19 @@ function Skills() {
           {selectedIcon === "CSS3" && (
             <p className="text-center absolute bottom-[-8] left-0 right-0 ">
               CSS3
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4 ">
+          <i
+            className="text-6xl text-brand-javascript "
+            onClick={() => handleIconClick("Javascript")}
+          >
+            <TbBrandJavascript />
+          </i>
+          {selectedIcon === "Javascript" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0">
+              Javascript
             </p>
           )}
         </div>
@@ -112,6 +119,32 @@ function Skills() {
           {selectedIcon === "Redux" && (
             <p className="text-center absolute bottom-[-8] left-0 right-0 ">
               Redux
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-bootstrap "
+            onClick={() => handleIconClick("Bootstrap")}
+          >
+            <SiBootstrap />
+          </i>
+          {selectedIcon === "Bootstrap" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              Bootstrap
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-materialui "
+            onClick={() => handleIconClick("MaterialUI")}
+          >
+            <SiMaterialui />
+          </i>
+          {selectedIcon === "MaterialUI" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              MaterialUI
             </p>
           )}
         </div>
