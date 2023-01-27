@@ -25,11 +25,11 @@ function Skills() {
   };
 
   return (
-    <div className="flex flex-wrap  mx-auto items-center justify-center w-full ">
+    <div className="flex flex-wrap  mx-auto my-5 items-center justify-center w-full ">
       <h1 className="text-4xl font-bold shadow-gray-400  text-center p-6 ">
         My Skills
       </h1>
-      <div className="grid grid-cols-3 gap-8 sm:my-4 border shadow-lg shadow-grey-400 py-10 px-8">
+      <div className="grid grid-cols-3 gap-5 sm:my-4 border shadow-lg shadow-gray-400 py-6 px-4">
         <div className="relative mx-4">
           <i
             className="text-6xl text-brand-html5 "
