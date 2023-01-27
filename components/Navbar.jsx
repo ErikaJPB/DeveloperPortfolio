@@ -37,16 +37,20 @@ function Navbar() {
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-6 font-semibold">
+          <li className="p-6 font-semibold hover:underline">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-6 font-semibold">
+          <li className="p-6 font-semibold hover:underline">
             <Link href="/about">About Me</Link>
           </li>
-          <li className="p-6 font-semibold">
+          <li className="p-6 font-semibold hover:underline">
+            <Link href="/skills">Skills</Link>
+          </li>
+
+          <li className="p-6 font-semibold hover:underline">
             <Link href="/portfolio">Portfolio</Link>
           </li>
-          <li className="p-6 font-semibold">
+          <li className="p-6 font-semibold hover:underline">
             <Link href="/contact">Contact Me</Link>
           </li>
           <li>
@@ -85,6 +89,12 @@ function Navbar() {
               className="p-4 text-5xl font-semibold hover:text-gray-500"
             >
               <Link href="/about">About Me</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-5xl font-semibold hover:text-gray-500"
+            >
+              <Link href="/skills">Skills</Link>
             </li>
             <li
               onClick={handleNav}

@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         </Head>
         <Hero heading="Erika Pineda" message="Full-Stack Web Developer" />
         <About />
+        <Skills />
         <Portfolio />
         <Contact />
       </div>

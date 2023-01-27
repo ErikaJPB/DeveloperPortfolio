@@ -14,6 +14,7 @@ function Hero({ heading, message }) {
 
         {router.pathname !== "/contact" &&
         router.pathname !== "/about" &&
+        router.pathname !== "/skills" &&
         router.pathname !== "/portfolio" ? (
           <Link href="/contact">
             <button className="px-8 py-4 border my-5">Contact Me</button>
