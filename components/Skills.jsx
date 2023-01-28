@@ -25,7 +25,7 @@ function Skills() {
   };
 
   return (
-    <div className="flex flex-wrap  mx-auto my-5 items-center justify-center w-full ">
+    <div className="flex flex-wrap  mx-auto my-5 items-center justify-center w-full py-10">
       <h1 className="text-4xl font-bold shadow-gray-400  text-center p-6 ">
         My Skills
       </h1>

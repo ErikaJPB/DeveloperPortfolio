@@ -58,7 +58,7 @@ function Contact() {
   }, [status]);
 
   return (
-    <div className="max-w-[1240px] m-auto p-6">
+    <div className="max-w-[1240px] m-auto p-6 py-10">
       <h1 className="text-4xl font-bold shadow-gray-400  text-center p-6">
         Let's build the web together!
       </h1>
