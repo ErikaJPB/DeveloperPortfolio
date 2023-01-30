@@ -20,4 +20,13 @@ export const projects = [
     ],
     Deployment: "https://front-acmetronic-production.up.railway.app/",
   },
+  {
+    id: 3,
+    title: "Weather App",
+    Description:
+      "A small front-end project utilizing Next.js, TypeScript, and TailwindCSS, which accesses the Open Weather Map API to fetch weather information. The purpose of the project was to become familiar with TypeScript and to continue practicing TailwindCSS for styling.",
+    image: "/assets/weather.gif",
+    GitHub: ["https://github.com/ErikaJPB/weatherapp"],
+    Deployment: "https://weatherapp-erikajpb.vercel.app/",
+  },
 ];

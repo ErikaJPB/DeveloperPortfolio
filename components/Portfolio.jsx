@@ -27,11 +27,15 @@ function Projects() {
                 {project.Description}
               </h4>
               <div className="flex justify-between mt-4">
-                {project.GitHub.map((url) => (
-                  <a href={url} className="text-black-500 font-bold font-xl">
+                {project.GitHub[0] && (
+                  <a
+                    href={project.GitHub[0]}
+                    className="text-black-500 font-bold font-xl"
+                  >
                     View on GitHub
                   </a>
-                ))}
+                )}
+                ))
                 <a
                   href={project.Deployment}
                   className="text-black-500 font-bold"
