@@ -35,7 +35,7 @@ function Projects() {
                     View on GitHub
                   </a>
                 )}
-                ))
+
                 <a
                   href={project.Deployment}
                   className="text-black-500 font-bold"
