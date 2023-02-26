@@ -18,7 +18,7 @@ export const projects = [
       "https://github.com/kachamozo/ACMEtronics-back",
       "https://github.com/kachamozo/ACMEtronics-front",
     ],
-    Deployment: "https://front-acmetronic-production.up.railway.app/",
+    Deployment: "https://acmetronics-henryproject.vercel.app/",
   },
   {
     id: 3,
