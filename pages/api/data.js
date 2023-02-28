@@ -6,7 +6,7 @@ export const projects = [
       "This project is an individual work that was created for the Henry Bootcamp. It utilizes the PokeApi and uses PostgreSQL as the database. The backend was developed with Node.JS and Express, and the frontend was created with React, Redux, and pure CSS.",
     image: "/assets/poke.gif",
     GitHub: ["https://github.com/ErikaJPB/Henry-PI-Pokemon"],
-    Deployment: "https://poke-front-lvea.vercel.app/",
+    Deployment: "https://henrypi-pokemon-ejpb.vercel.app/",
   },
   {
     id: 2,
