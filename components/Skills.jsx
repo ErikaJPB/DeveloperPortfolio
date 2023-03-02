@@ -15,6 +15,8 @@ import {
   SiSequelize,
   SiMaterialui,
   SiBootstrap,
+  SiTypescript,
+  SiMongodb,
 } from "react-icons/si";
 
 function Skills() {
@@ -197,6 +199,32 @@ function Skills() {
           {selectedIcon === "Sequelize" && (
             <p className="text-center absolute bottom-[-8] left-0 right-0 ">
               Sequelize
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-typescript "
+            onClick={() => handleIconClick("TypeScript")}
+          >
+            <SiTypescript />
+          </i>
+          {selectedIcon === "TypeScript" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              TypeScript
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-mongodb "
+            onClick={() => handleIconClick("MongoDb")}
+          >
+            <SiMongodb />
+          </i>
+          {selectedIcon === "MongoDb" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              MongoDb
             </p>
           )}
         </div>

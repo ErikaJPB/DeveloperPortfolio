@@ -13,7 +13,7 @@ export const projects = [
     title: "ACMEtronics",
     Description:
       "This project was an e-commerce platform created as a group effort for the Henry Bootcamp. We created our own information to use as an API and worked with PostgreSQL as the database. The backend was developed with Node.js and Express, and the frontend was created with React, Redux, Bootstrap, and Material UI.",
-    image: "/assets/acmetronics.gif",
+    image: "/assets/acmetronicstwo.gif",
     GitHub: [
       "https://github.com/kachamozo/ACMEtronics-back",
       "https://github.com/kachamozo/ACMEtronics-front",
@@ -28,5 +28,14 @@ export const projects = [
     image: "/assets/weather.gif",
     GitHub: ["https://github.com/ErikaJPB/weatherapp"],
     Deployment: "https://weatherapp-erikajpb.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Todo App",
+    Description:
+      "A simple Todo app built with Next.js, TypeScript, and Tailwind. It allows users to manage their to-do list. The app uses Firebase as its database.",
+    image: "/assets/todoapp.gif",
+    GitHub: ["https://github.com/ErikaJPB/TodoApp"],
+    Deployment: "https://todo-app-erikajpb.vercel.app/",
   },
 ];
