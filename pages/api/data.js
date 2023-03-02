@@ -33,7 +33,7 @@ export const projects = [
     id: 4,
     title: "Todo App",
     Description:
-      "A simple Todo app built with Next.js, TypeScript, and Tailwind. It allows users to manage their to-do list. The app uses Firebase as its database.",
+      "A simple Todo app built with Next.js, TypeScript, and TailwindCSS. It allows users to manage their to-do list. The app uses Firebase as its database.",
     image: "/assets/todoapp.gif",
     GitHub: ["https://github.com/ErikaJPB/TodoApp"],
     Deployment: "https://todo-app-erikajpb.vercel.app/",
