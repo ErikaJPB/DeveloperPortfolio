@@ -48,7 +48,7 @@ function Navbar() {
           </li>
 
           <li className="p-6 font-semibold hover:underline">
-            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/portfolio">Projects</Link>
           </li>
           <li className="p-6 font-semibold hover:underline">
             <Link href="/contact">Contact Me</Link>
