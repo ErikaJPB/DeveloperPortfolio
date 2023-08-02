@@ -1,9 +1,6 @@
 import React from "react";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import Image from "next/image";
 
 function Links() {
   return (
@@ -19,11 +16,18 @@ function Links() {
         <AiOutlineLinkedin className="text-4xl mx-8 cursor-pointer  ml-1 my-2" />
       </a>
       <a
-        href="https://twitter.com/TheGreyMind"
+        href="https://www.threads.net/@erikajpb"
         target="_blank"
         rel="noreferrer"
       >
-        <AiOutlineTwitter className="text-4xl mx-8 cursor-pointer  ml-1 my-2" />
+        <Image
+          src="/assets/threads.png"
+          height={35}
+          width={35}
+          alt="Threads"
+          quality={100}
+          className="text-4xl mx-8 cursor-pointer rounded-3xl   ml-1 my-2"
+        />
       </a>
     </div>
   );
