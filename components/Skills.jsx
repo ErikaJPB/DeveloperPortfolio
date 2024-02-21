@@ -7,6 +7,7 @@ import {
 } from "react-icons/tb";
 import { GrReactjs } from "react-icons/gr";
 import { FaNodeJs } from "react-icons/fa";
+import { RiVuejsFill } from "react-icons/ri";
 import { DiPostgresql } from "react-icons/di";
 import {
   SiTailwindcss,
@@ -17,6 +18,8 @@ import {
   SiBootstrap,
   SiTypescript,
   SiMongodb,
+  SiAngular,
+  SiFirebase,
 } from "react-icons/si";
 
 function Skills() {
@@ -225,6 +228,45 @@ function Skills() {
           {selectedIcon === "MongoDb" && (
             <p className="text-center absolute bottom-[-8] left-0 right-0 ">
               MongoDb
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-vuejs "
+            onClick={() => handleIconClick("VueJS")}
+          >
+            <RiVuejsFill />
+          </i>
+          {selectedIcon === "VueJS" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              VueJS
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-angular "
+            onClick={() => handleIconClick("Angular")}
+          >
+            <SiAngular />
+          </i>
+          {selectedIcon === "Angular" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              Angular
+            </p>
+          )}
+        </div>
+        <div className="relative mx-4">
+          <i
+            className="text-6xl text-firebase "
+            onClick={() => handleIconClick("Firebase")}
+          >
+            <SiFirebase />
+          </i>
+          {selectedIcon === "Firebase" && (
+            <p className="text-center absolute bottom-[-8] left-0 right-0 ">
+              Firebase
             </p>
           )}
         </div>

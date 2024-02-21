@@ -28,9 +28,18 @@ export const projects = [
     GitHub: ["https://github.com/ErikaJPB/Book-Finder"],
     Deployment: "https://book-finder-erikajpb.vercel.app/",
   },
-
   {
     id: 4,
+    title: "Movie Time",
+    Description:
+      "This movie web application allows users to explore popular movies, view movies filtered by genre, search for specific titles, view detailed movie information, and watch trailers. Developed using Angular, TypeScript, and Bootstrap, the application integrates seamlessly with the MovieDB API to fetch up-to-date movie data. Deployment is handled through Firebase, ensuring smooth and reliable hosting. ",
+    image: "/assets/movietime.gif",
+    GitHub: ["https://github.com/ErikaJPB/Movie-Project"],
+    Deployment: "https://movie-project-1478d.web.app/",
+  },
+
+  {
+    id: 5,
     title: "ACMEtronics",
     Description:
       "This project was an e-commerce platform created as a group effort for the Henry Bootcamp. We created our own information to use as an API and worked with PostgreSQL as the database. The backend was developed with Node.js and Express, and the frontend was created with React, Redux, Bootstrap, and Material UI.",
@@ -42,7 +51,7 @@ export const projects = [
     Deployment: "https://acmetronics-henryproject.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Pokemon World",
     Description:
       "This project is an individual work that was created for the Henry Bootcamp. It utilizes the PokeApi and uses PostgreSQL as the database. The backend was developed with Node.JS and Express, and the frontend was created with React, Redux, and pure CSS.",
@@ -51,7 +60,7 @@ export const projects = [
     Deployment: "https://henrypi-pokemon-ejpb.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Todo App",
     Description:
       "A simple Todo app built with Next.js, TypeScript, and TailwindCSS. It allows users to manage their to-do list. The app uses Firebase as its database.",
@@ -60,7 +69,7 @@ export const projects = [
     Deployment: "https://todo-app-erikajpb.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Weather App",
     Description:
       "A small front-end project utilizing Next.js, TypeScript, and TailwindCSS, which accesses the Open Weather Map API to fetch weather information. The purpose of the project was to become familiar with TypeScript and to continue practicing TailwindCSS for styling.",
